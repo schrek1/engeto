@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Clc {
 
+    private static int aaa;
     private static final char TERMINATION_SYMBOL = 'x';
 
 
