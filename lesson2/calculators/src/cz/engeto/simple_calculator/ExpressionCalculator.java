@@ -3,7 +3,7 @@ package cz.engeto.simple_calculator;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ImprovedCalc {
+public class ExpressionCalculator {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,7 +19,6 @@ public class ImprovedCalc {
 
             double result = expre(expression);
             System.out.println(expression + "= " + result);
-
         }
         sc.close();
     }
@@ -60,4 +59,18 @@ public class ImprovedCalc {
         return result;
     }
 
+    void foo() {
+        int day = 4;
+        switch (day) {
+            case 6:
+                System.out.println("Today is Saturday");
+                break;
+            case 7:
+                System.out.println("Today is Sunday");
+                break;
+            default:
+                System.out.println("Looking forward to the Weekend");
+        }
+//
+    }
 }
