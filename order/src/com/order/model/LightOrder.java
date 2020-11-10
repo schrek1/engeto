@@ -1,23 +1,22 @@
 package com.order.model;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class LightOrder {
     private long customerId;
-    private long[] itemIds;
+    private List<Long> itemIds;
 
     public LightOrder(long customerId) {
         this.customerId = customerId;
-        this.itemIds = new long[5];
+        this.itemIds = new ArrayList<>();
     }
 
     public void addOrderItem(long orderItemId) {
-        itemIds[getLastIndex()] = orderItemId;
+        itemIds.add(orderItemId);
     }
 
-    private int getLastIndex() {
-        return 0; // todo
-    }
 
     public long getCustomerId() {
         return customerId;
@@ -27,19 +26,16 @@ public class LightOrder {
         this.customerId = customerId;
     }
 
-    public long[] getItemIds() {
+    public List<Long> getItemIds() {
         return itemIds;
     }
 
-    public void setItemIds(long[] itemIds) {
-        this.itemIds = itemIds;
-    }
 
     @Override
     public String toString() {
         return "LightOrder{" +
                 "customerId=" + customerId +
-                ", itemIds=" + Arrays.toString(itemIds) +
+                ", itemIds=" + itemIds +
                 '}';
     }
 }

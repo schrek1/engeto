@@ -7,7 +7,7 @@ import com.school.model.Subject;
 
 public class Main {
 
-    private static final SchoolAnalytics analytics = new SchoolAnalytics(new DatabaseAdapter());
+    private static final SchoolAnalytics analytics = new SchoolAnalytics();
 
     public static void main(String[] args) {
         Student fKarel = new Student("Karel", "Novy", "1", new Subject[0]);

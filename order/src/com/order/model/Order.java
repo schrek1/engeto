@@ -1,37 +1,35 @@
 package com.order.model;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Order {
     private Customer customer;
-    private OrderItem[] items;
+    private List<OrderItem> items;
 
     public Order(Customer customer) {
         this.customer = customer;
-        this.items = new OrderItem[5];
+        this.items = new ArrayList<>();
     }
 
     public void addOrderItem(OrderItem orderItem) {
-        items[getLastIndex()] = orderItem;
+        items.add(orderItem);
     }
 
     public Customer getCustomer() {
         return customer;
     }
 
-    public OrderItem[] getItems() {
+    public List<OrderItem> getItems() {
         return items;
-    }
-
-    private int getLastIndex() {
-        return 0;// todo return last index
     }
 
     @Override
     public String toString() {
         return "Order{" +
                 "customer=" + customer +
-                ", items=" + Arrays.toString(items) +
+                ", items=" + items +
                 '}';
     }
 }

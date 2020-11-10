@@ -15,7 +15,6 @@ class SchoolAnalyticsTest {
         void allValid_shouldPassWithoutError() {
             var schoolAnalytics = new SchoolAnalytics();
 
-
         }
     }
 

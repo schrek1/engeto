@@ -8,6 +8,13 @@ import com.order.model.Order;
 import com.order.model.OrderItem;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Main {
 
@@ -29,6 +36,22 @@ public class Main {
 
         System.out.println(order);
         System.out.println(lightOrder);
+
+        List<String> list = new ArrayList<>();
+
+        Map<String, List<String>> dictionary = new HashMap<>();
+        dictionary.put("ahoj", List.of("hi", "hello"));
+        dictionary.put("pes", List.of("dog"));
+
+        Set<String> keys = dictionary.keySet();
+        Collection<List<String>> values = dictionary.values();
+        System.out.println(keys);
+        System.out.println(values);
+        Set<Map.Entry<String, List<String>>> entries = dictionary.entrySet();
+        for (Map.Entry<String, List<String>> entry : entries) {
+            System.out.println(entry);
+        }
+
     }
 
 
