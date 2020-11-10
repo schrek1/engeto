@@ -1,5 +1,6 @@
 package cz.engeto.simple_calculator;
 
+
 class Tmp {
 
     public enum Day {
