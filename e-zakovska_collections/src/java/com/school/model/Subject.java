@@ -10,7 +10,6 @@ public enum Subject {
     CZECH_LANGUAGE("Český jazyk", "Čj"),
     IT("Informatika", "It");
 
-    private static final int MAX_CAPACITY = 1000;
     private final String name;
     private final String shortcut;
     private final List<Evaluation> evaluations;
