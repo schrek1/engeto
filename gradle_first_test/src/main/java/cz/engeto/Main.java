@@ -20,15 +20,27 @@ public class Main {
 
     // Driver code
     public static void main(String args[]) {
-        int arr[] = {2, 3, 4, 10, 40};
-        int x = 10;
+//        int arr[] = {2, 3, 4, 10, 40};
+//        int x = 10;
+//
+//        // Function call
+//        int result = search(arr, x);
+//        if (result == -1) {
+//            System.out.print("Element is not present in array");
+//        } else {
+//            System.out.print("Element is present at index " + result);
+//        }
 
-        // Function call
-        int result = search(arr, x);
-        if (result == -1) {
-            System.out.print("Element is not present in array");
-        } else {
-            System.out.print("Element is present at index " + result);
+        recursiveDecrement(4);
+    }
+
+
+    public static int recursiveDecrement(int val) {
+        if (val == 0) {
+            System.out.println(val);
+            return 0;
         }
+        System.out.println(val);
+        return recursiveDecrement(val - 1);
     }
 }

@@ -1,0 +1,17 @@
+
+ˆ
+java:S1192"rDefine a constant instead of duplicating this literal "test_search_allParamsValid_shouldReturnIndex - ok" 3 times.(öÑèü
+œ
+java:S1192"€Define a constant instead of duplicating this literal "test_search_allParamsValid_shouldReturnIndex - error bad index " 3 times.(¦×ßãıÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©üËÁ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(öÑèü
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦×ßãıÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È½Óâ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ôõğÿÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ÉÊ³ƒ
+h	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é—…Îşÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(öÑèü
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(¦×ßãıÿÿÿÿ
+b	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ë•
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(öÑèü
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(¦×ßãıÿÿÿÿ

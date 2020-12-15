@@ -1,0 +1,16 @@
+
+F
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ1
+N
+java:S1854("8Remove this useless assignment to local variable "list".(ŠŒÖ
+]
+java:S1854"BRemove this useless assignment to local variable "secondCustomer".(ˆÕ†øşÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(ÍÕ§§ùÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ÑÊîå
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ĞÈƒ…
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(‡›–
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(¥²˜Å
+N
+java:S1481"3Remove this unused "secondCustomer" local variable.(ˆÕ†øşÿÿÿÿ
+?
+java:S1481(")Remove this unused "list" local variable.(ŠŒÖ
