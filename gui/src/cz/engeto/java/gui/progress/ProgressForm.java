@@ -19,6 +19,8 @@ public class ProgressForm extends JFrame {
 
     private boolean state = false;
 
+    private boolean isRunning = false;
+
     public ProgressForm() {
         add(rootPanel);
 
@@ -32,9 +34,20 @@ public class ProgressForm extends JFrame {
             labelStatus.setText(String.valueOf(state));
         });
 
-        bRun.addActionListener(e -> longTaskBadImpl());
-//        bRun.addActionListener(e -> longTaskGoodImpl());
 
+        bRun.addActionListener(e -> buttonClick());
+
+    }
+
+    private synchronized void buttonClick() {
+        if (!isRunning) {
+            isRunning = true;
+            progressBar.setValue(0);
+            progressBar.setString(null);
+            longTaskBadImpl()
+//            longTaskGoodImpl();
+//            ownImpl();
+        }
     }
 
     private void longTaskBadImpl() {
@@ -44,6 +57,16 @@ public class ProgressForm extends JFrame {
             progressBar.setValue(percentCompleted);
         }
         progressBar.setString("completed");
+    }
+
+    private void ownImpl() {
+        new Thread(() -> {
+            for (int i = 1; i <= 10; i++) {
+                loadImage();
+                int percentCompleted = i * 10;
+                SwingUtilities.invokeLater(() -> progressBar.setValue(percentCompleted));
+            }
+        }).start();
     }
 
     private void longTaskGoodImpl() {
@@ -58,6 +81,7 @@ public class ProgressForm extends JFrame {
             @Override
             protected void done() {
                 progressBar.setString("completed");
+                isRunning = false;
             }
 
             @Override
