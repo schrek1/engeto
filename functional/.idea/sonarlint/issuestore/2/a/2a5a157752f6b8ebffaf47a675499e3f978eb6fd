@@ -1,0 +1,14 @@
+
+a
+java:S2583"DChange this condition so that it does not always evaluate to "false"(»•¼Ÿ8êÿî¿æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(³‰È¥øÿÿÿÿ8Éåß¿æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¦˜ÛŞûÿÿÿÿ8øŞ¿æ.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¦˜ÛŞûÿÿÿÿ8¨°ï¿æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(£ø§‡øÿÿÿÿ8‹Çá¿æ.
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8øŞ¿æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÚŠšùúÿÿÿÿ8øŞ¿æ.
+f
+java:S2583"DChange this condition so that it does not always evaluate to "false"(ÈŠ•ùÿÿÿÿ8æêô¿æ.
+Q
+java:S2201"/The return value of "orElseThrow" must be used.(¹®»ßüÿÿÿÿ8±ú¿æ.

@@ -1,0 +1,11 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹ºşÿÿÿÿ8„Ãÿ¿æ.
+V
+java:S1128	"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8ˆ÷’¿æ.
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8×äÀæ.
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8ˆ÷’¿æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(·êÜöüÿÿÿÿ8óÆÀæ.
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8ˆ÷’¿æ.

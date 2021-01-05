@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -19,6 +20,12 @@ public class Streams {
 
         Map<String, List<Student>> olderStudentByGender = studentsOlderThan.stream()
                 .collect(Collectors.groupingBy(Student::getGender));
+
+        testList.stream()
+                .filter(it -> it.getAge() >= 18)
+                .findFirst()
+                .ifPresent(System.out::println);
+
 
         System.out.println(olderStudentByGender);
     }

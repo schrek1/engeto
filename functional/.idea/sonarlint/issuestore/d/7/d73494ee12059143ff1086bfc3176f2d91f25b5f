@@ -1,0 +1,27 @@
+
+\
+java:S1854":Remove this useless assignment to local variable "result".(å›ˆşÿÿÿÿ8¿»²¼æ.
+e
+java:S1128	"CRemove this unused import 'java.util.function.DoubleToIntFunction'.(å¯ßÍşÿÿÿÿ8˜…¼æ.
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8‰»Ğ¼æ.
+N
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8‰»Ğ¼æ.
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ïñĞ¼æ.
+E
+java:S1481"(Remove this unused "val" local variable.(¤¾Ç8¿»²¼æ.
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ñõ³»æ.
+x
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(îÑ©‚úÿÿÿÿ8¿»²¼æ.
+o
+java:S4276="RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(›ë¹°8ãÆ¯¼æ.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Ù¿éûÿÿÿÿ8«È¼æ.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ûÈĞ»æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(û£üùÿÿÿÿ8¿»²¼æ.
+T
+java:S1854"7Remove this useless assignment to local variable "val".(¤¾Ç8¿»²¼æ.
+V
+java:S1854":Remove this useless assignment to local variable "result".(ÄõĞA8¿»²¼æ.
